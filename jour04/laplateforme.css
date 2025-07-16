@@ -13,10 +13,71 @@ body {
     margin-bottom: 10px;
 }
 
+h1 {
+    color: black;
+    font-size: 240%;
+}
+
+h2, h3 {
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}
+
+.mainTitle {
+    text-align: center;
+    color: black;
+}
+
+.col2 img {
+    height: 60%;
+}
+
 .pagePrincipale {
     display: flex;
     flex-direction: row;
     background-color: #AB2A7C;
+}
+
+.contenuPrincipal {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sectPres {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.sectLogo {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    background-color: aliceblue;
+}
+
+.ligneLogos4, .ligneLogos5, .ligneLogos6 {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    justify-content: center;
+}
+
+.ligneLogos4 {
+    gap: 2%;
+}
+
+.ligneLogos6 {
+    gap: 8%;
+}
+
+.ligneLogos5 {
+    gap: 8%;
 }
 
 .boxDescription {
@@ -24,31 +85,55 @@ body {
     padding-left: 7%;
     padding-right: 7%;
     padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
 }
 
-.boxPhotos img {
-    width: 100%;
+.boxVideo {
+    padding-top: 5%;
+    padding-right: 5%;
 }
 
-.logo {
-    width: 33%;
+.ligneLogos4 img {
+    width: 50%;
 }
 
-h1 {
+.logoContain {
+    object-fit: contain;
+}
+
+.ligneLogos6 img {
+    width: 10%;
+}
+
+.ligneLogos5 img {
+    width: 15%;
+}
+
+.sectCertif {
+    /*background-color: #E74A34;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.certifQualiopi, .certif2 {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+
+.pagePrincipale h1 {
     color: white;
     font-size: 240%;
     
-}
-
-h2, h3 {
-    color: white;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     color: #ffffff;
-    background-color: rgb(26, 36, 225);
+    background-color: #0285FA;
     padding: 10px;
     gap: 3%;
 }
@@ -65,10 +150,64 @@ footer {
     bottom: 0;
     gap: 5%;
     justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.button {
+  border: none;
+  background-color: #E74A34;
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 4px;
+  margin-top: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+.button2 {
+  background-color: #ffca4b;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btnContact {
+  border-color: #E0E0E0;
+  background-color: transparent;
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 4px;
+  margin-top: 6px;
+  cursor: pointer;
+  color: #E0E0E0;
+  
+}
+
+.btnContact:hover {
+    border: none;
+    background-color: #222222;
 }
 
 footer img {
     width: 220px;
+}
+
+footer p {
+    color: #E0E0E0;
 }
 
 .infosFooter {
@@ -76,6 +215,22 @@ footer img {
     margin-left: 3%;
 }
 
-.infosFooter, .col1, .col2, .col3 {
+.col1, .col2, .col3 {
+    padding-bottom: 2%;
+}
+
+li {
+    list-style-type: none;
+}
+
+hr {
+    border-color: white;
+}
+
+.w-100 {
     width: 100%;
+}
+
+.w-30 {
+    width: 30%;
 }
