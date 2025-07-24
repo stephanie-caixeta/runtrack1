@@ -31,7 +31,7 @@ p {
     color: black;
 }
 
-.col2 img {
+.col img {
     height: 60%;
 }
 
@@ -72,11 +72,11 @@ p {
     gap: 2%;
 }
 
-.ligneLogos6 {
+.ligneLogos5 {
     gap: 8%;
 }
 
-.ligneLogos5 {
+.ligneLogos6 {
     gap: 8%;
 }
 
@@ -112,7 +112,6 @@ p {
 }
 
 .sectCertif {
-    /*background-color: #E74A34;*/
     display: flex;
     flex-direction: column;
 }
@@ -216,7 +215,7 @@ footer p {
     margin-left: 3%;
 }
 
-.col1, .col2, .col3 {
+.col {
     padding-bottom: 2%;
 }
 
@@ -234,4 +233,21 @@ hr {
 
 .w-30 {
     width: 30%;
+}
+
+/* @ media */
+
+@media only screen and (max-width: 700px) {
+    .pagePrincipale, footer, .sectPres, .certifQualiopi, .certif2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .button {
+        display: none;
+    }
 }
