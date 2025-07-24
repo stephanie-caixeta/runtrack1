@@ -1,0 +1,78 @@
+@font-face {
+    font-family: titleFont;
+    src: url(asset/Cute_Font.ttf);
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1703868349678-275f871167d6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fHBhdHRlcm5zfGVufDB8fDB8fHww);
+}
+
+nav {
+    position: fixed;
+    width: 100%; 
+    height: 30px; 
+    padding: 10px;
+    top: 0;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: aliceblue;
+    color: #466ece;
+}
+
+.contenuPage {
+    margin: 0% 15%; 
+    padding: 5px; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    min-height: 500px;
+    text-align: center;
+}
+
+.contenuPage h1 {
+    font-family: 'titleFont';
+    font-size: 20px;
+    background-color: rgb(255, 255, 255, 0.8); 
+    text-align: center; 
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 800px) {
+    .contenuPage h1{
+        font-size: 50px;
+    }
+    
+}
+
+.contenuPage h3 {
+    text-shadow: 2px 2px 5px #BB1407;
+}
+
+img {
+    width: 27.3%; 
+    padding-bottom: 10px;
+    float: right;
+}
+
+@media only screen and (max-width: 800px) {
+    img {
+        display: none;
+    }
+
+    .contenuPage h2 {
+        display: none;
+    }
+}
+
+.sectionDescription, .sectionLiens {
+    background-color: rgb(255, 255, 255, 0.9); 
+    text-align: center; 
+    margin: 2% 5%; 
+    padding: 10px;
+}

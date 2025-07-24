@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'teamFont';
+    src: url(asset/team.ttf);
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1608501712351-a4ca8dc996fb?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+nav {
+    position: fixed; 
+    width: 100%; 
+    height:20px; 
+    padding: 10px 0px 10px 10px;
+    top: 0;
+    background-color: #CFC7DC;
+}
+
+.pageContenu {
+    color: white;
+    border-style: double; 
+    border-color: #ffffff; 
+    border-radius: 5%;
+    background-color: rgb(242, 172, 238, 0.8); 
+    text-align: center; 
+    margin: 0% 15%; 
+    padding: 5px; 
+    margin-top: 10%;
+    margin-bottom: 10%;
+    min-height: 500px;
+}
+
+.pageContenu h1 {
+    font-size: 50px;
+    font-family: 'teamFont', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px #FFe599;
+}
+
+.pageContenu h2 {
+    color: black;
+}
+
+.yonna {
+    color: #c45824;
+}
+
+.stephanie {
+    color: #FFe599;
+}
+
+.fixed {
+    position: fixed;
+    width: 15%;
+    bottom: 5%;
+    right: 8%;
+}
+
+.presYonnnie {
+    margin: 0% 25%;
+    color: black;
+}
+
+a {
+    color: purple ;
+}
+
+a:hover {
+  background-color: yellow;
+  font-size: 18px;
+}
+
+.footer {
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+    height: 30px; 
+    padding: 10px;
+    background-color: #CFC7DC;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+			img {
+				display: none;
+			}
+
+            .footer {
+                display: none;
+            }
+
+            .pageContenu {
+                min-height: 0px;
+                margin-bottom: 5%;
+            }
+
+            .pageContenu h1 {
+                font-size: 30px;
+            }
+		}
+
+@media screen and (orientation: portrait) {
+    img {
+        display: none;
+    }
+}

@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'teamFont';
+    src: url(asset/team.ttf);
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=1193&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+nav {
+    position: fixed; 
+    width: 100%; 
+    height:20px; 
+    padding: 10px 0px 10px 10px;
+    top: 0;
+    background-color: #1e275a;
+}
+
+.pageContenu {
+    color: white;
+    border-style: dotted; 
+    border-color: #ffffff; 
+    border-radius: 5%;
+    background-color: rgba(154, 184, 253, 0.8); 
+    text-align: center; 
+    margin: 0% 15%; 
+    padding: 5px; 
+    margin-top: 10%;
+    margin-bottom: 10%;
+    min-height: 500px;
+}
+
+.pageContenu h1 {
+    font-size: 70px;
+    font-family: 'teamFont', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px #9c99ff;
+}
+
+.pageContenu h2 {
+    color: black;
+}
+
+.yonna {
+    color: #c45824;
+}
+
+.stephanie {
+    color: #FFe599;
+}
+
+.ressane {
+    color: #1e275a;
+}
+
+img {
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+}
+
+.presYonnnie {
+    margin: 0% 25%;
+    color: black;
+}
+
+a {
+    color: rgb(188, 168, 220) ;
+}
+
+a:hover {
+  background-color: rgba(154, 184, 253, 0.8);
+  color: white;
+  font-size: 18px;
+}
+
+.footer {
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+    height: 30px; 
+    padding: 10px 0px 10px 10px;
+    background-color: #1e275a;
+    text-align: center;
+    color: rgb(188, 168, 220);
+}
+
+@media only screen and (max-width: 600px) {
+			img {
+				display: none;
+			}
+
+            .footer {
+                display: none;
+            }
+
+            .pageContenu {
+                min-height: 0px;
+                margin-bottom: 5%;
+            }
+
+            .pageContenu h1 {
+                font-size: 30px;
+            }
+		}
+
+@media screen and (orientation: portrait) {
+    img {
+        display: none;
+    }
+}

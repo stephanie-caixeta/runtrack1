@@ -1,0 +1,149 @@
+body {
+    font-family:"Lucida Handwriting", cursive;
+    background-image: url("asset/lizard.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+
+}
+.Partiecentral {
+    width: 90%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: aliceblue;
+    display: flex;
+    background-color: rgba(54, 48, 48, 0.811);
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-block: 15px;
+}
+.nav {
+    
+    display: flex;
+     height:30px; 
+     padding: 10px; 
+     background-color: rgba(54, 48, 48, 0.811);
+     border-style: solid;
+     border-color: rgb(255, 255, 255);
+     border-width: 20px;
+     margin: auto;
+     width: 70%;
+     justify-content: center;
+     margin-block: 20px;
+}
+.FirstParam {
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+    background-color: rgba(54, 48, 48, 0.811);
+    border-style: solid;
+    border-width: 10px;
+    border-color: aliceblue;
+    border-radius:4000px;
+}
+.ProfilParam {
+    display: flex;
+    margin: 10px;
+    width: 50%;
+    background-color: rgba(135, 136, 147, 0.592);
+    border-style: solid;
+    border-radius: 10px;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin: auto;
+    margin-block: 25px;
+
+}
+.ProfilParam, img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: aliceblue;
+}
+.PrésentationParam {
+    font-size: 24px;
+    background-color:rgba(54, 48, 48, 0.811);
+    border-color: aliceblue;
+    border-width: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    padding: 2%;
+    border-radius: 10px;
+}
+.PrésentationParam2 {
+    background-color: rgb(90, 90, 90); ;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    margin: auto;
+    position:relative;
+    border-radius: 10px;
+    margin-block: 25px;
+    width: 60%;
+
+}
+footer {
+
+    display: inline;
+    flex-direction: row;
+    text-align: center;
+    padding:-50px;
+    margin-block: 10px;
+    
+}
+h4 {
+    margin-top: 50px;
+    background-color:  rgb(90, 90, 90);
+    border-style: solid;
+    margin: 10px;
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+    margin-block: 10px;
+    color: aliceblue;
+       
+}
+.favorite {
+    background-color: rgb(147, 16, 213);
+    border-style: solid;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    margin-bottom: 10%;
+    width: 200px;
+    height: 50px;
+    border-radius: 5%;
+    top: 60px;
+    justify-content: center;
+    
+    
+}
+.favorite:hover {
+    background-color: aqua;
+    font-size: 12px;
+    box-shadow: 15px 15px 15px rgb(0, 221, 255);
+
+}
+h3 {
+    font-size: 18px;
+    width: 20%;
+   text-align: center;
+   border-style: solid;
+   color: aliceblue;
+   position: relative;
+   top: 30px;
+   
+}
+p{  
+    color: aliceblue;
+   
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.li1 {
+    text-decoration: underline;
+
+}

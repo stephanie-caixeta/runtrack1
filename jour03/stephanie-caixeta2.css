@@ -1,0 +1,96 @@
+@font-face {
+    font-family: titleFont;
+    src: url(asset/HorrorFont-Regular.ttf);
+}
+
+body {
+    background: url(https://plus.unsplash.com/premium_photo-1671617779915-80d66fcfe002?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGFyayUyMHRleHR1cmV8ZW58MHx8MHx8fDA%3D);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    background-color: #A50000;
+    font-size: 20px;
+}
+
+.descriptionPage {
+    text-align: center;
+}
+
+.contenuPage h1 {
+    color: white;
+    font-family: 'titleFont' ;
+    font-size: 50px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+    .contenuPage h1{
+        font-size: 90px;
+    }
+    
+}
+
+.contenuPage h2 {
+    text-align: center;
+}
+
+img {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 75%;
+    width: 12%;
+    float: left;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+.sectionDescription {
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    background-size: 100%;
+    background-color: rgb(240, 248, 255, 0.6);
+    margin: 0% 15%; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 800px) {
+    .sectionDescription {
+        background-image: url('asset/border.png');
+        padding-top: 18%;
+    }
+}
+
+.sectionLiens {
+    background-size: 100%;
+    background-position-y: 25%;
+    background-color: rgb(240, 248, 255, 0.6);
+    margin: 0% 15%; 
+    padding: 25px; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 550px) {
+    .sectionLiens {
+        background-image: url('asset/border.png');
+        padding: 75px; 
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    img {
+        display: none;
+    }
+
+    .contenuPage h2 {
+        display: none;
+    }
+}

@@ -1,0 +1,108 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+
+  background: linear-gradient(rgb(229, 229, 235), rgb(241, 42, 75));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(246, 2, 140);
+  font-size: 3vw;
+}
+
+.fullname {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(253, 249, 252, 0.556);
+  border: solid 3px #fff;
+  color: rgb(246, 2, 140);
+
+}
+
+a:hover {
+  color: rgb(154, 10, 207);
+}
+
+h1 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(246, 2, 140);
+}
+
+.photo img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  height: 250px;
+  border: solid 3px rgb(227, 179, 213);
+}
+
+.photo {
+  display: flex;
+  padding: 10%;
+  background-image: url(https://media.istockphoto.com/id/1140756861/fr/photo/close-up-de-mur-de-toile-de-fond-de-roses-color%C3%A9es.jpg?s=612x612&w=0&k=20&c=hJFY8H7u83yXUohwGUYoVzy-CwX4xjYWTtVHJAy5xT0=);
+  background-size: cover;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  width: 80%;
+}
+
+.contenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  background-color: #fff;
+}
+
+
+.titre {
+  color: rgb(246, 2, 140);
+}
+
+.presentation {
+
+  background-color: #ffffff;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .contenu {
+    flex-direction: column;
+  }
+
+  html,
+  body {
+    overflow: auto;
+    height: auto;
+  }
+}
